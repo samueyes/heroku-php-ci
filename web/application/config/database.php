@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'postgres://svfoxgagsecdec:qoRTb15qDF59aIDQRd8zcaaXLG@ec2-54-235-125-38.compute-1.amazonaws.com:5432/ddv60u1j40kbqi',
 	'hostname' => 'localhost',
 	'username' => '',
 	'password' => '',
 	'database' => '',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
