@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> ' postgres://lwwypbocpownzn:pjJbSduiHE72DcBX5JCpRLpPqr@ec2-54-235-217-221.compute-1.amazonaws.com:5432/dbu7c85co0m019',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'dsn'	=> '',
+	'hostname' => 'ec2-54-235-217-221.compute-1.amazonaws.com',
+	'username' => 'lwwypbocpownzn',
+	'password' => 'pjJbSduiHE72DcBX5JCpRLpPqr',
+	'database' => 'dbu7c85co0m019',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -92,5 +92,6 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
+	'port'	=> 5432,
 	'save_queries' => TRUE
 );
