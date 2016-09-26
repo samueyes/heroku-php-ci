@@ -20,7 +20,6 @@ class Db extends CI_Controller {
 	 */
 	public function index()
 	{
-		echo 'Db';
 		$this->load->database();
 		$this->load->view('db');
 	}
