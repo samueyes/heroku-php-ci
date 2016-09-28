@@ -72,6 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<div id="body"> 
 		Test dulu
+		Belum nemu cara ambil data
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
