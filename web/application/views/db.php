@@ -68,13 +68,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to Postgree Lo!</h1>
+	<h1>Welcome to Postgree Lo egy!</h1>
 
 	<div id="body"> 
 		Test dulu
 		Belum nemu cara ambil data
 	</div>
-
+	<div>
+		buat footer
+	</div>
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
